@@ -7,3 +7,13 @@ export async function inserirLivro(capa, titulo, autor, usuarioId) {
     let [registros] = await connection.query(comando, [capa, titulo, autor, usuarioId]);
     return registros.insertId;
 }
+
+
+export async function ListarLivros() {
+    let [resultados] = 
+        await connection.query(
+            `SELECT * FROM repositorio`
+        )
+
+    return resultados
+}
