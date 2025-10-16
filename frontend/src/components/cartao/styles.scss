@@ -1,0 +1,36 @@
+.cartao{
+    display: flex;
+    background-color: #D9D9D9;
+    width: 95vw;
+    height: fit-content;
+    margin: 10px;
+    justify-self: center;
+    padding: 5px;
+    justify-content: space-between;
+    border-radius: 12px;
+
+    .info{
+        width: 50vw;
+        margin:10px;
+
+        h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+    }
+
+    .imagem{
+        img{
+            width: 40vw;
+            height: 20vw;
+            border-radius: 12px;
+        }
+    }
+    .inverter{
+        order: 1;
+    }
+}
